@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>การปฐมพยาบาล</title>
+  <link rel="icon" type="image/x-icon" href="./img/logo.png">
+
+  <!-- ฟอนต์ -->
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&family=Mali:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="asd/style.css">
+</head>
+<body>
+
+  <!-- ส่วนหัว -->
+  <header class="site-header">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="./img/logo.png" alt="BoneCare Logo">
+        <h1>กระดูกหัก</h1>
+        <img class="flip-hor" style="margin-left: 10px;" src="./img/logo.png" alt="BoneCare Logo">
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">หน้าหลัก</a></li>
+        <li><a href="fracture.html">ประเภทกระดูกหัก</a></li>       
+        <li><a href="protect.html">สาเหตุและการป้องกัน</a></li>
+        <li><a href="emergency.html">การปฐมพยาบาล</a></li>         
+        <li><a href="recovery.html">การดูแลและฟื้นฟู</a></li>
+        <li><a href="test.html">แบบทดสอบ</a></li>      
+      </ul>
+      <div class="menu-toggle" id="menuToggle">&#9776;</div>
+    </nav>
+  </header>
+
+  <!-- เนื้อหา -->
+  <main>
+    <section class="quiz-container">
+      <h2>แบบทดสอบการปฐมพยาบาลเบื้องต้น</h2>
+
+      <form id="quizForm">
+        <div class="question">
+          <p>1. เมื่อพบผู้ป่วยกระดูกหัก สิ่งแรกที่ควรทำคืออะไร?</p>
+          <label><input type="radio" name="q1" value="1"> เคลื่อนย้ายทันที</label><br>
+          <label><input type="radio" name="q1" value="2"> โทรแจ้งหน่วยแพทย์และตรึงอวัยวะ</label><br>
+          <label><input type="radio" name="q1" value="3"> กดนวดบริเวณที่หัก</label>
+        </div>
+
+        <div class="question">
+          <p>2. การใช้เฝือกชั่วคราวมีวัตถุประสงค์เพื่ออะไร?</p>
+          <label><input type="radio" name="q2" value="1"> เพื่อความสวยงาม</label><br>
+          <label><input type="radio" name="q2" value="2"> เพื่อลดการเคลื่อนไหวและบรรเทาความเจ็บปวด</label><br>
+          <label><input type="radio" name="q2" value="3"> เพื่อให้เลือดไหลสะดวก</label>
+        </div>
+
+        <div class="question">
+          <p>3. หากกระดูกหักมีแผลเปิด ควรทำอย่างไร?</p>
+          <label><input type="radio" name="q3" value="1"> ล้างแผล ใส่เฝือก และห้ามเลือด</label><br>
+          <label><input type="radio" name="q3" value="2"> ไม่ต้องทำอะไร ปล่อยไว้</label><br>
+          <label><input type="radio" name="q3" value="3"> นวดให้เลือดไหลออก</label>
+        </div>
+
+        <div class="question">
+          <p>4. วัสดุใดเหมาะที่สุดสำหรับการทำเฝือกชั่วคราว?</p>
+          <label><input type="radio" name="q4" value="1"> ไม้กระดานหรือวัตถุแข็งที่หาได้</label><br>
+          <label><input type="radio" name="q4" value="2"> ผ้าขนหนู</label><br>
+          <label><input type="radio" name="q4" value="3"> กระดาษทิชชู่</label>
+        </div>
+
+        <div class="question">
+          <p>5. การตรึงอวัยวะที่หักควรตรึงบริเวณใด?</p>
+          <label><input type="radio" name="q5" value="1"> เฉพาะจุดที่หักเท่านั้น</label><br>
+          <label><input type="radio" name="q5" value="2"> ข้อต่อเหนือและใต้ตำแหน่งที่หัก</label><br>
+          <label><input type="radio" name="q5" value="3"> ตรึงทุกส่วนของร่างกาย</label>
+        </div>
+
+        <div class="question">
+          <p>6. ถ้าผู้บาดเจ็บมีภาวะช็อกควรทำอย่างไร?</p>
+          <label><input type="radio" name="q6" value="1"> ให้ดื่มน้ำเย็นทันที</label><br>
+          <label><input type="radio" name="q6" value="2"> นอนราบ ยกขาสูง และคลุมผ้า</label><br>
+          <label><input type="radio" name="q6" value="3"> ปล่อยให้นั่งพักเฉยๆ</label>
+        </div>
+
+        <div class="question">
+          <p>7. ถ้ากระดูกหักแทงออกนอกผิวหนังควรทำอย่างไร?</p>
+          <label><input type="radio" name="q7" value="1"> ดันกระดูกกลับเข้าไป</label><br>
+          <label><input type="radio" name="q7" value="2"> ปิดแผลห้ามเลือดและตรึงอวัยวะ</label><br>
+          <label><input type="radio" name="q7" value="3"> ใช้มือดึงให้ตรง</label>
+        </div>
+
+        <div class="question">
+          <p>8. อาการใดบ่งบอกว่ามีการกระดูกหัก?</p>
+          <label><input type="radio" name="q8" value="1"> มีเสียงกรอบแกรบเมื่อขยับ</label><br>
+          <label><input type="radio" name="q8" value="2"> ปวด บวม เคลื่อนไหวไม่ได้</label><br>
+          <label><input type="radio" name="q8" value="3"> ทั้งสองข้อถูก</label>
+        </div>
+
+        <div class="question">
+          <p>9. การเคลื่อนย้ายผู้ป่วยกระดูกสันหลังหักควรทำอย่างไร?</p>
+          <label><input type="radio" name="q9" value="1"> ยกด้วยคนเดียว</label><br>
+          <label><input type="radio" name="q9" value="2"> ใช้หลายคนช่วยกันเคลื่อนย้ายให้อยู่แนวตรง</label><br>
+          <label><input type="radio" name="q9" value="3"> ดึงแขนแล้วลากออกมา</label>
+        </div>
+
+        <div class="question">
+          <p>10. วัตถุประสงค์หลักของการปฐมพยาบาลกระดูกหักคืออะไร?</p>
+          <label><input type="radio" name="q10" value="1"> ทำให้ผู้ป่วยเคลื่อนไหวได้เร็ว</label><br>
+          <label><input type="radio" name="q10" value="2"> ลดความเจ็บปวด ป้องกันภาวะแทรกซ้อน และรอการรักษา</label><br>
+          <label><input type="radio" name="q10" value="3"> ทำให้กระดูกติดกันทันที</label>
+        </div>
+
+        <button type="button" onclick="checkQuiz()">ตรวจคำตอบ</button>
+      </form>
+
+      <div class="result" id="result"></div>
+    </section>
+  </main>
+
+  <!-- ส่วนท้าย -->
+  <footer class="site-footer">
+    <p>© กระดูกหัก วิชาอาชีวอนามัยและความปลอดภัย ©</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="asd/action.js"></script>
+</body>
+</html>
